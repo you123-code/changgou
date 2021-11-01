@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a77eb1e-3dab-4709-9ba9-1fae03963839" name="Default Changelist" comment="" />
+    <list default="true" id="6a77eb1e-3dab-4709-9ba9-1fae03963839" name="Default Changelist" comment="第二次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,8 +193,16 @@
       <workItem from="1635477292226" duration="10618000" />
       <workItem from="1635508762936" duration="3060000" />
       <workItem from="1635552613794" duration="4210000" />
-      <workItem from="1635727348685" duration="7025000" />
+      <workItem from="1635727348685" duration="8195000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次提交">
+      <created>1635734607201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635734607201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +219,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="651" y="294" key="#Notifications" timestamp="1635735113879">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="651" y="294" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1635735113879" />
     <state x="0" y="14" key="#Project_Structure" timestamp="1633761562543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -289,10 +316,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1635475260969" />
-    <state x="167" y="14" key="SettingsEditor" timestamp="1635734248807">
+    <state x="167" y="14" key="SettingsEditor" timestamp="1635735063768">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1635734248807" />
+    <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1635735063768" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1635735740900">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1635735740900" />
     <state x="313" y="161" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1635473538970">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
