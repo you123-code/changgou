@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
             <groupId>org.changgou</groupId>
-            <artifactId>changgou-service-goods-api</artifactId>
+            <artifactId>changgou-service-PKGoods-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

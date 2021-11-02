@@ -9,5 +9,5 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>商品微服务工程-changgou_goods数据库的管理</description>
-    <artifactId>changgou-service-goods</artifactId>
+    <artifactId>changgou-service-PKGoods</artifactId>
 </project>

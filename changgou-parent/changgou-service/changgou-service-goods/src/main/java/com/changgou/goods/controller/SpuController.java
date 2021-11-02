@@ -1,5 +1,7 @@
 package com.changgou.goods.controller;
+
 import com.changgou.goods.pojo.Spu;
+import com.changgou.goods.pojo.vo.PKGoods;
 import com.changgou.goods.service.SpuService;
 import com.github.pagehelper.PageInfo;
 import entity.Result;
@@ -7,6 +9,7 @@ import entity.StatusCode;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 /****
@@ -22,6 +25,27 @@ public class SpuController {
 
     @Autowired
     private SpuService spuService;
+    /**
+     * 根据spuID查询goods信息
+     */
+    @ApiOperation("根据spuID查询goods信息")
+    @ApiImplicitParam(name = "spuId",value = "spuId")
+    @GetMapping(value = "/goods")
+    public Result<PKGoods> findGoodsById(Long spuId){
+       PKGoods PKGoods = spuService.findGoodsById(spuId);
+        return new Result<PKGoods>(true,StatusCode.OK,"根据spuID查询goods信息成功", PKGoods);
+    }
+
+    /**
+     * 增加商品实现
+     */
+    @ApiOperation(value = "增加商品")
+    @ApiImplicitParam(name = "goods",value = "商品信息")
+    @PostMapping("/save")
+    public Result saveGoods(@RequestBody PKGoods PKGoods){
+        spuService.saveGoods(PKGoods);
+        return new Result(true,StatusCode.OK,"增加产品成功");
+    }
 
     /***
      * Spu分页条件搜索实现
@@ -36,7 +60,7 @@ public class SpuController {
             @ApiImplicitParam(paramType = "path", name = "size", value = "每页显示条数", required = true, dataType = "Integer")
     })
     @PostMapping(value = "/search/{page}/{size}" )
-    public Result<PageInfo> findPage(@RequestBody(required = false) @ApiParam(name = "Spu对象",value = "传入JSON数据",required = false) Spu spu, @PathVariable  int page, @PathVariable  int size){
+    public Result<PageInfo> findPage(@RequestBody(required = false) @ApiParam(name = "spu",value = "传入JSON数据",required = false) Spu spu, @PathVariable  int page, @PathVariable  int size){
         //调用SpuService实现分页条件查询Spu
         PageInfo<Spu> pageInfo = spuService.findPage(spu, page, size);
         return new Result(true,StatusCode.OK,"查询成功",pageInfo);

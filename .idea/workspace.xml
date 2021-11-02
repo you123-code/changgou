@@ -11,7 +11,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a77eb1e-3dab-4709-9ba9-1fae03963839" name="Default Changelist" comment="第二次提交">
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/vo/PKGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/StockBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/UndoLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/vo/PKGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/com/changgou/FileApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/com/changgou/file/FastDFSFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/com/changgou/goods/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/com/changgou/util/FastDFSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/target/classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/GoodsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/CategoryBrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/ParaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/PrefController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/SpuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/StockBackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/TemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/UndoLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/CategoryBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/ParaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/PrefMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/SpecMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/StockBackMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/TemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/UndoLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/AlbumFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/BrandFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/CategoryBrandFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/CategoryFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/ParaFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/PrefFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/SkuFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/SpecFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/SpuFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/StockBackFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/TemplateFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/feign/UndoLogFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/AlbumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/CategoryBrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/ParaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/PrefService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SpecService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/SpuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/StockBackService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/TemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/UndoLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/CategoryBrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/ParaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/PrefServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SpecServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/SpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/StockBackServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/TemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/UndoLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/changgou-service-goods-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/changgou-service-goods-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/changgou-service-goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/changgou-service-goods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/ParaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/ParaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/SpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/ParaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/code-template-master/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +165,10 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\APP1\idea\idea-test-project\changgou\changgou-parent\changgou-service-api" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.changgou.service" />
+      <recent name="com.changgou.service.BrandService" />
+      <recent name="com.changgou.service.impl.BrandService" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\APP1\idea\idea-test-project\changgou\changgou-parent\changgou-service\changgou-service-goods\src\main\java\com" />
@@ -79,10 +179,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.changgou.goods.pojo" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.changgou.service" />
-      <recent name="com.changgou.service.BrandService" />
-      <recent name="com.changgou.service.impl.BrandService" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\APP1\idea\idea-test-project\changgou\changgou-parent\changgou-service-api" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GoodsApplication">
@@ -193,7 +291,8 @@
       <workItem from="1635477292226" duration="10618000" />
       <workItem from="1635508762936" duration="3060000" />
       <workItem from="1635552613794" duration="4210000" />
-      <workItem from="1635727348685" duration="8195000" />
+      <workItem from="1635727348685" duration="25381000" />
+      <workItem from="1635812835768" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1635734607201</created>
@@ -202,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635734607201</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次提交">
+      <created>1635735845966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635735845966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +324,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第二次提交" />
@@ -236,10 +343,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1635508882255" />
-    <state x="0" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1635554434942">
+    <state x="0" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1635751466458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1635554434942" />
+    <state x="0" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1635751466458" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1635508854717">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -248,10 +355,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="283" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1635473979872" />
-    <state x="0" y="592" width="817" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635337365293">
+    <state x="0" y="592" width="817" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635741629898">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="592" width="817" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1635337365293" />
+    <state x="0" y="592" width="817" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1635741629898" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1635754023754">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1635754023754" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1635736051405">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1635736051405" />
     <state x="493" y="197" key="FileChooserDialogImpl" timestamp="1635477075899">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -264,54 +379,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="274" y="136" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1635734323884" />
-    <state width="1493" height="400" key="GridCell.Tab.0.bottom" timestamp="1635734353464">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1635764682485">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.0.center" timestamp="1635734353464">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635764682485" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1635764682484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.0.left" timestamp="1635734353464">
+    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1635764682484" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1635764682484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.0.right" timestamp="1635734353464">
+    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1635764682484" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1635764682484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.1.bottom" timestamp="1635734353464">
+    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1635764682484" />
+    <state width="1493" height="280" key="GridCell.Tab.1.bottom" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.1.center" timestamp="1635734353464">
+    <state width="1493" height="280" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.1.center" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.1.left" timestamp="1635734353464">
+    <state width="1493" height="280" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.1.left" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.1.right" timestamp="1635734353464">
+    <state width="1493" height="280" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.1.right" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.2.bottom" timestamp="1635734353465">
+    <state width="1493" height="280" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.2.bottom" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635734353465" />
-    <state width="1493" height="400" key="GridCell.Tab.2.center" timestamp="1635734353464">
+    <state width="1493" height="280" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.2.center" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.2.left" timestamp="1635734353464">
+    <state width="1493" height="280" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.2.left" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
-    <state width="1493" height="400" key="GridCell.Tab.2.right" timestamp="1635734353465">
+    <state width="1493" height="280" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
+    <state width="1493" height="280" key="GridCell.Tab.2.right" timestamp="1635764682476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1635734353464" />
+    <state width="1493" height="280" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1635764682476" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1635475260969">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -320,14 +435,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1635735063768" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1635735740900">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1635735856913">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1635735740900" />
-    <state x="313" y="161" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1635473538970">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1635735856913" />
+    <state x="313" y="161" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1635754122587">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="313" y="161" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1635473538970" />
+    <state x="313" y="161" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1635754122587" />
     <state width="912" height="355" key="documentation.popup.size" timestamp="1635730974912">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -340,15 +455,19 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="267" y="90" width="1180" height="670" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1634776819675" />
-    <state x="594" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1635491409132">
+    <state x="470" y="188" key="refactoring.ChangeSignatureDialog" timestamp="1635751966310">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="594" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1635491409132" />
+    <state x="470" y="188" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1635751966310" />
+    <state x="594" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1635751695846">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="594" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1635751695846" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/SpecController.java</url>
           <line>30</line>
           <option name="timeStamp" value="1" />

@@ -23,6 +23,19 @@ public class ParaController {
     @Autowired
     private ParaService paraService;
 
+    /**
+     * 根据分类id查询参数集合-->分类的template_id-->根据template_id查询参数集合
+     * @param categoryId
+     * @return
+     */
+    @ApiOperation("根据分类id查询参数集合")
+    @ApiImplicitParam(name = "categoryId",value = "分类id")
+    @GetMapping(value = "/category")
+    public Result<List<Para>> findByCategoryId(Integer categoryId){
+        List<Para> paras = paraService.findByCategory(categoryId);
+        return new Result<List<Para>>(true,StatusCode.OK,"根据分类id查询参数集合成功",paras);
+    }
+
     /***
      * Para分页条件搜索实现
      * @param para

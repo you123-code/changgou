@@ -1,5 +1,6 @@
 package com.changgou.goods.service;
 import com.changgou.goods.pojo.Spu;
+import com.changgou.goods.pojo.vo.PKGoods;
 import com.github.pagehelper.PageInfo;
 import java.util.List;
 /****
@@ -8,6 +9,17 @@ import java.util.List;
  * @Date 2019/6/14 0:16
  *****/
 public interface SpuService {
+    /**
+     * 根据id查询Goods
+     * @return
+     * @param id
+     */
+    PKGoods findGoodsById(Long id);
+
+    /**
+     * 商品增加
+     */
+    void  saveGoods(PKGoods PKGoods);
 
     /***
      * Spu多条件分页查询

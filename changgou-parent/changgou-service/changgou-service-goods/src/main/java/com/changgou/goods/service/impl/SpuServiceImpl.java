@@ -1,14 +1,27 @@
 package com.changgou.goods.service.impl;
+import com.alibaba.fastjson.JSON;
+import com.changgou.goods.dao.BrandMapper;
+import com.changgou.goods.dao.CategoryMapper;
+import com.changgou.goods.dao.SkuMapper;
 import com.changgou.goods.dao.SpuMapper;
+import com.changgou.goods.pojo.Brand;
+import com.changgou.goods.pojo.Category;
+import com.changgou.goods.pojo.Sku;
 import com.changgou.goods.pojo.Spu;
+import com.changgou.goods.pojo.vo.PKGoods;
 import com.changgou.goods.service.SpuService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import entity.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
+
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
+
 /****
  * @Author:shenkunlin
  * @Description:Spu业务层接口实现类
@@ -20,6 +33,77 @@ public class SpuServiceImpl implements SpuService {
     @Autowired
     private SpuMapper spuMapper;
 
+    @Autowired
+    private IdWorker idWorker;
+
+    @Autowired
+    private SkuMapper skuMapper;
+
+    @Autowired
+    private CategoryMapper categoryMapper;
+
+    @Autowired
+    private BrandMapper brandMapper;
+
+    @Override
+    public PKGoods findGoodsById(Long id) {
+        //查询spu
+        Spu spu = spuMapper.selectByPrimaryKey(id);
+        //查询Sku<List>
+        Sku sku = new Sku();
+        sku.setSpuId(id);
+        List<Sku> skuList = skuMapper.select(sku);
+        PKGoods PKGoods = new PKGoods();
+        PKGoods.setSpu(spu);
+        PKGoods.setSkuList(skuList);
+        return PKGoods;
+    }
+
+    @Override
+    public void saveGoods(PKGoods pkGoods) {
+        //获取spu
+        Spu spu = pkGoods.getSpu();
+        if(spu.getId() == null){
+            //为空，则增加
+            spu.setId(idWorker.nextId());
+            spuMapper.insertSelective(spu);
+        }else{
+            //否则修改
+            spuMapper.updateByPrimaryKeySelective(spu);
+            //删除之前的List<Sku> delete from tb_sku where sku_id = ?
+            Sku sku = new Sku();
+            sku.setSpuId(spu.getId());
+            skuMapper.delete(sku);
+        }
+
+        //sku集合
+        Date date = new Date();
+        //查询三级分类
+        Category category = categoryMapper.selectByPrimaryKey(spu.getCategory3Id());
+        //查询品牌信息
+        Brand brand = brandMapper.selectByPrimaryKey(spu.getBrandId());
+        for (Sku sku : pkGoods.getSkuList()) {
+            sku.setId(idWorker.nextId());
+            //获取spec
+            String name = spu.getName();
+            if(StringUtils.isEmpty(sku.getSpec())){
+                sku.setSpec("{}");
+            }
+            //将spec转成map
+            Map<String,String> specMap = JSON.parseObject(sku.getSpec(), Map.class);
+            for (Map.Entry<String, String> entry : specMap.entrySet()) {
+                name += " "+entry.getValue();
+            }
+            sku.setName("name");
+            sku.setCreateTime(date);
+            sku.setUpdateTime(date);
+            sku.setSpuId(spu.getId());
+            sku.setCategoryId(spu.getCategory3Id());//分类id-->三级分类id
+            sku.setCategoryName(category.getName());//分类名字-->三级分类名字
+            sku.setBrandName(brand.getName());//品牌名称
+        }
+
+    }
 
     /**
      * Spu条件+分页查询

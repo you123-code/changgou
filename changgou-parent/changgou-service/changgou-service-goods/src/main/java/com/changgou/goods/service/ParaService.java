@@ -8,7 +8,12 @@ import java.util.List;
  * @Date 2019/6/14 0:16
  *****/
 public interface ParaService {
-
+    /**
+     * 根据分类id查询参数集合-->分类的template_id-->根据template_id查询参数集合
+     * @param categoryId
+     * @return
+     */
+    List<Para> findByCategory(Integer categoryId);
     /***
      * Para多条件分页查询
      * @param para
