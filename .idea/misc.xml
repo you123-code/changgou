@@ -8,11 +8,15 @@
       <list>
         <option value="$PROJECT_DIR$/changgou-parent/pom.xml" />
         <option value="$PROJECT_DIR$/code-template-master/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-contents/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service-content-api/pom.xml" />
         <option value="$PROJECT_DIR$/changgou-parent/changgou-service-goods-api/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-content/pom.xml" />
       </set>
     </option>
   </component>

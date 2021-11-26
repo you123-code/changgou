@@ -10,6 +10,23 @@ import java.util.List;
  *****/
 public interface SpuService {
     /**
+     * 批量上架
+     */
+    void putMany(Long[] spuIds);
+    /**
+     * 商品上架
+     */
+    void put(Long spuId);
+    /**
+     * 商品下架
+     */
+    void pull(Long spuId);
+    /**
+     *商品审核
+     */
+    void  audit(Long spuId);
+
+    /**
      * 根据id查询Goods
      * @return
      * @param id

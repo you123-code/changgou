@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -44,6 +45,60 @@ public class SpuServiceImpl implements SpuService {
 
     @Autowired
     private BrandMapper brandMapper;
+
+    @Override
+    public void putMany(Long[] spuIds) {
+       //update tb_spu set IsMarktable = '1' where id in(spuIds) and isDelete = '0' and status = '1'
+        Example example = new Example(Spu.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andIn("id", Arrays.asList(spuIds));
+        criteria.andEqualTo("isDelete","0");
+        criteria.andEqualTo("status","1");
+        Spu spu = new Spu();
+        spu.setIsMarketable("1");//上架
+        spuMapper.updateByExampleSelective(spu,example);
+    }
+
+    @Override
+    public void put(Long spuId) {
+        Spu spu = spuMapper.selectByPrimaryKey(spuId);
+        if(spu.getIsDelete().equals("1")){
+            throw new RuntimeException("该商品已经被删除");
+        }
+        if(!spu.getStatus().equals("1")){
+            throw  new RuntimeException("未通过审核的商品不能上架");
+        }
+        //商品上架
+        spu.setIsMarketable("1");
+        spuMapper.updateByPrimaryKeySelective(spu);
+    }
+
+    @Override
+    public void pull(Long spuId) {
+        //查询商品
+        Spu spu = spuMapper.selectByPrimaryKey(spuId);
+        //判断是否删除
+        if(spu.getIsDelete().equalsIgnoreCase("1")){
+            throw  new RuntimeException("不能对已删除的商品进行下架");
+        }
+        //修改下架状态
+        spu.setIsMarketable("0");
+        spuMapper.updateByPrimaryKeySelective(spu);
+    }
+
+    @Override
+    public void audit(Long spuId) {
+        //查询商品
+        Spu spu = spuMapper.selectByPrimaryKey(spuId);
+        //判断商品是否符合审核条件
+        if(spu.getIsDelete().equalsIgnoreCase("1")){
+            throw  new RuntimeException("不能对已删除的商品进行审核");
+        }
+        //修改审核状态
+        spu.setStatus("1");//审核通过
+        spu.setIsMarketable("1");//上架
+        spuMapper.updateByPrimaryKeySelective(spu);
+    }
 
     @Override
     public PKGoods findGoodsById(Long id) {

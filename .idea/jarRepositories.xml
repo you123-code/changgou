@@ -2,13 +2,48 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="spring-milestone" />
+      <option name="name" value="Spring Milestone" />
+      <option name="url" value="http://nexus.zqlian.com/repository/maven" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="alimaven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="nexus-zqlian" />
       <option name="name" value="Nexus zqlian" />
+      <option name="url" value="http://nexus.zqlian.com/repository/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="nexus" />
+      <option name="url" value="http://nexus.hepengju.cn:8081/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="alimaven" />
+      <option name="name" value="alimaven" />
+      <option name="url" value="http://nexus.zqlian.com/repository/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="rabbit-milestone" />
+      <option name="name" value="Rabbit Milestone" />
+      <option name="url" value="http://nexus.zqlian.com/repository/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-snapshot" />
+      <option name="name" value="Spring Snapshot" />
       <option name="url" value="http://nexus.zqlian.com/repository/maven" />
     </remote-repository>
     <remote-repository>

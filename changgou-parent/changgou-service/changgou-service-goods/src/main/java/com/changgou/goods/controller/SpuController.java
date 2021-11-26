@@ -26,6 +26,46 @@ public class SpuController {
     @Autowired
     private SpuService spuService;
     /**
+     * 批量上架
+     */
+    @ApiOperation("批量上架")
+    @ApiImplicitParam(name = "spuIds",value = "spuIds")
+    @PutMapping(value = "/putMany")
+    public  Result putMany(@RequestBody Long[] spuIds){
+        spuService.putMany(spuIds);
+        return new Result(true,StatusCode.OK,"批量上架成功");
+    }
+    /**
+     *商品上架
+     */
+    @ApiOperation("商品上架")
+    @ApiImplicitParam(name = "spuId",value = "spuId")
+    @PutMapping(value = "/put")
+    public Result put(Long spuId){
+        spuService.put(spuId);
+        return new Result(true,StatusCode.OK,"商品上架成功");
+    }
+    /**
+     * 商品下架
+     */
+    @ApiOperation("商品下架")
+    @ApiImplicitParam(name = "spuId",value = "spuId")
+    @PutMapping(value = "/pull")
+    public Result pull(Long spuId){
+        spuService.pull(spuId);
+        return new Result(true,StatusCode.OK,"商品下架成功");
+    }
+    /**
+     * 审核操作
+     */
+    @ApiOperation(value = "商品审核操作")
+    @ApiImplicitParam(name = "spuId",value = "spuId")
+    @PutMapping(value = "/audit")
+    public Result audit(Long spuId){
+        spuService.audit(spuId);
+        return new Result(true,StatusCode.OK,"商品审核操作成功");
+    }
+    /**
      * 根据spuID查询goods信息
      */
     @ApiOperation("根据spuID查询goods信息")
