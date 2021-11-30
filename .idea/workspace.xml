@@ -16,14 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a77eb1e-3dab-4709-9ba9-1fae03963839" name="Default Changelist" comment="配cancal,广告同步">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/changgou-service-content-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/changgou-service-content-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/src/main/java/com/changgou/content/feign/ContentFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/src/main/java/com/changgou/content/feign/ContentFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/target/classes/com/changgou/content/feign/ContentFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-content-api/target/classes/com/changgou/content/feign/ContentFeign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-canal/src/main/java/com/changgou/CanalDataEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-canal/src/main/java/com/changgou/CanalDataEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-canal/target/classes/com/changgou/CanalDataEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-canal/target/classes/com/changgou/CanalDataEventListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-contents/changgou-service-contents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-contents/changgou-service-contents.iml" afterDir="false" />
+    <list default="true" id="6a77eb1e-3dab-4709-9ba9-1fae03963839" name="Default Changelist" comment="实现广告监控，存储到缓存">
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/feign/SkuFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-search-api/target/classes/com/changgou/search/pojo/SkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/SearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/controller/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/dao/SkuEsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/SkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-search/target/classes/com/changgou/search/service/impl/SkuServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
